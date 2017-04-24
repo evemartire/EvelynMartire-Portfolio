@@ -338,16 +338,7 @@ width: 20%;
     margin-top: 100px;
 }
 
-.contactos-contenedor {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 50px;
-}
- 
+
 
 .contenedor-iconos{
 	display: flex;
@@ -400,7 +391,41 @@ width: 20%;
     margin-top: 0px;
 }
 
+.contactos-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+ 
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+    margin-bottom: 50px;
+}
 
 
+.direccion{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.horario{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+    margin-bottom: 50px;
+}
 
 }
