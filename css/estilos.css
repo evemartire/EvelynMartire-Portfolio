@@ -21,6 +21,10 @@ header, footer {
 
 /*Header estilos*/
 
+.menuresponsive{
+	display: none;
+}
+
 header nav{
   	overflow: hidden;
   	position: fixed;
@@ -428,15 +432,61 @@ width: 20%;
     margin-bottom: 50px;
 }
 
-header .foto-home p {
-    position: absolute;
+
+
+.menudesktop{
+	display: none;
+}
+
+
+.menuresponsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: transparent;
+    height: 200px;
+}
+
+.menuresponsive h2{
+  font-size: 12px;
+  font-weight: 400;
+  color: #666666;
+  padding: 2px;
+}
+
+.menuresponsive p {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    text-align: center;
+    font-size: 10px;
     color: white;
     background: rgba(0, 0, 0, 0.7);
-    padding: 6px;
+    padding: 5px;
     bottom: 0px;
-    font-size: 8px;
 }
+
+.nombre-en-foto{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.ion-navicon-round{
+  font-size: 15px;
+  color: #666666;
+}
+
+.imagen-de-fondo-header{
+  background-image: url("../imagenes/fondo2.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.meunu-e-icono{
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+}
+
 
 }
